@@ -10,3 +10,8 @@
 * кнопки должны быть сверстаны текстом - должна быть возможность его менять без изменений графики
 * `circle placeholder` заменить на произвольные изображения
 * можно использовать любые вспомогательные библиотеки
+
+Шрифты:
+
+Amaranth - http://www.fontsquirrel.com/fonts/amaranth
+PT Sans - http://www.fontsquirrel.com/fonts/PT-Sans
