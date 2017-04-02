@@ -1,0 +1,414 @@
+@import "fonts"
+@import "libs"
+@import "vars"
+
+*::-webkit-input-placeholder
+	color: #666
+	opacity: 1
+
+*:-moz-placeholder
+	color: #666
+	opacity: 1
+
+*::-moz-placeholder
+	color: #666
+	opacity: 1
+
+*:-ms-input-placeholder
+	color: #666
+	opacity: 1
+.row 
+	margin-left: 0px
+	margin-right: 0px
+p, h2, h3
+	margin: 0
+	padding: 0
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button
+  -webkit-appearance: none
+  margin: 0
+body input:focus:required:invalid,
+body textarea:focus:required:invalid
+	color: #666
+body input:required:valid,
+body textarea:required:valid
+	color: #666
+
+html, body
+	height: 100%
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+.container
+	max-width: 1000px
+	padding: 0
+.header
+	background: #fff
+	padding-top: 12px
+	padding-bottom: 25px
+.main
+	background: #f1f5e4
+	border-top: 2px solid #ef571c
+	.main__wrapper
+		background: url("../img/main-bg.jpg") no-repeat
+		background-size: 100%
+		.main__form-box
+			position: relative
+			.price-product
+				text-align: right
+				padding-top: 300px
+				padding-right: 70px
+				p
+					margin: 0
+					text-transform: uppercase
+					color: #fff
+					font-size: 36px
+					font-weight: bold
+					letter-spacing: -1px
+					line-height: 49px
+					span
+						font-size: 90px
+						text-transform: none
+						letter-spacing: -5px
+						padding-right: 5px
+			.form-order
+				padding: 0
+				margin-top: 20px
+				.form-order__block
+					background: rgba(255,255,255,0.95)
+					border-radius: 8px
+					max-width: 335px
+					margin-bottom: 10px
+					padding: 20px 0 20px 55px
+					.head
+						color: #ff6110
+						font-weight: bold
+						font-size: 30px
+						line-height: 32px
+						letter-spacing: -1px
+						margin-bottom: 10px
+					form
+						input
+							width: 260px
+							height: 30px
+							border: 1px solid #d8d8d8
+							background: #fff
+							border-radius: 3px
+							box-shadow: 0 0 4px rgba(208, 208, 208, 0.6)
+							margin-bottom: 10px
+							font-size: 14px
+							color: #666
+							padding: 0 8px
+							font-family: "PTSansRegular"
+						select
+							width: 259px
+							height: 30px
+							border: 1px solid #d8d8d8
+							background: #fff
+							border-radius: 3px
+							box-shadow: 0 0 4px rgba(208, 208, 208, 0.6)
+							margin-bottom: 10px
+							font-size: 14px
+							color: #666
+							padding-left: 8px
+							font-family: "PTSansRegular"
+						button
+							background: #1660c3 url("../img/order-btn.png") no-repeat
+							background-size: 100% 100%
+							width: 261px
+							height: 39px
+							border: 1px solid #1660c3
+							border-radius: 10px
+							outline: none
+							color: #fff
+							text-align: center
+							font-size: 29px
+							line-height: 24px
+							text-transform: uppercase
+							text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2)
+							box-shadow: 1px 1.7px 5px rgba(0, 0, 0, 0.19)
+							letter-spacing: -1px
+							font-weight: bold
+							margin-left: 11px
+							margin: 0
+				ul
+					list-style: none
+					margin: 0
+					padding-left: 55px
+					font-size: 16px
+					text-transform: uppercase
+					line-height: 14px
+					color: #fff
+					font-weight: bold
+					li
+						display: inline-block
+						position: relative
+						padding-left: 30px
+					.secured
+						margin-right: 20px
+					.secured:after
+						content: ''
+						position: absolute
+						background: url("../img/security-sprite.png") no-repeat 0px 0px
+						width: 25px
+						height: 26px
+						top: 0px
+						left: 0
+					.privacy:after
+						content: ''
+						position: absolute
+						background: url("../img/security-sprite.png") no-repeat -122px 0px
+						width: 21px
+						height: 26px
+						top: 0px
+						left: 3px
+		.main__form-box:before
+			content: ''
+			position: absolute
+			background: url("../img/woman-line.png") no-repeat
+			width: 1125px
+			height: 424px
+			top: 15px
+			left: -54px
+		.main__form-box:after
+			content: ''
+			position: absolute
+			background: url("../img/bottle.png") no-repeat
+			width: 365px
+			height: 448px
+			top: -32px
+			right: 230px
+		.main__guarantee
+			background: rgba(255, 255, 255, 0.84)
+			padding-top: 17px
+			padding-left: 20px
+			padding-bottom: 20px
+			.main__guarantee__img__text
+				padding-left: 20px
+				padding-top: 20px
+				padding-right: 60px
+				h2
+					font-size: 41px
+					font-weight: bold
+					line-height: 40px
+					color: #ff6110
+					margin-bottom: 10px
+				p
+					margin: 0
+					font-size: 15px
+					color: #3e3e3e
+					line-height: 17px
+					font-family: "PTSansRegular"
+		.main__info
+			.row
+				margin-right: 0
+				margin-left: 0
+				.main__info__box
+					color: #fff
+					padding-top: 18px
+					padding-left: 42px
+					height: 120px
+					h3
+						font-size: 25px
+						font-weight: bold
+						line-height: 24px
+						margin-bottom: 8px
+					p
+						margin: 0
+						font-size: 14px
+						line-height: 14px
+						font-family: "PTSansRegular"
+				.calories
+					background: #1660c3
+					position: relative
+				.appetite
+					background: #256dce
+					position: relative
+				.energy
+					background: #357fe4
+					position: relative
+				.fatique
+					background: #4891f4
+					position: relative
+				.calories:after
+					content: ''
+					position: absolute
+					background: url("../img/triangle-icon1.png") no-repeat
+					width: 41px
+					height: 119px
+					top: 0px
+					right: -41px
+					z-index: 1
+				.appetite:after
+					content: ''
+					position: absolute
+					background: url("../img/triangle-icon2.png") no-repeat
+					width: 41px
+					height: 119px
+					top: 0px
+					right: -41px
+					z-index: 1
+				.energy:after
+					content: ''
+					position: absolute
+					background: url("../img/triangle-icon3.png") no-repeat
+					width: 41px
+					height: 119px
+					top: 0px
+					right: -41px
+					z-index: 1
+		.main__about-effect
+			background: rgba(255, 255, 255, 0.84)
+			padding: 0 10px
+			.row
+				margin-left: 0
+				margin-right: 0
+				.list-block
+					padding-top: 15px
+					border-bottom: 2px dotted #dbdbd9
+					padding-bottom: 15px
+					.list-block__img
+						padding: 0
+						img 
+							width: 104px
+							height: 104px
+							border-radius: 50%
+					.list-block__text
+						padding: 0px 10px
+						padding-top: 8px
+						h3
+							font-size: 26px
+							color: #1861c3
+							font-weight: 700
+							line-height: 32px
+							margin-bottom: 8px
+						p
+							margin: 0
+							font-size: 15px
+							line-height: 17px
+							color: #3e3e3e
+							font-family: "PTSansRegular"
+				.list-block:nth-child(2)
+					text-align: right
+				.sidebox
+					padding-left: 50px
+					padding-top: 20px
+					.fruits-block
+						background: url("../img/fruit-img.jpg") no-repeat
+						width: 251px
+						height: 399px
+						p
+							margin: 0
+							color: #fff
+							text-transform: uppercase
+							text-align: center
+							font-weight: bold
+							line-height: 47px
+						.lose
+							font-size: 28px
+						.percent
+							font-size: 70px
+						.naturally
+							font-size: 36px
+						a
+							display: inline-block
+							background: #ff6110
+							border: 1px solid #f65d0e
+							box-shadow: 1px 1.7px 5px rgba(0, 0, 0, 0.19)
+							border-radius: 6px
+							color: #fff
+							font-size: 26px
+							text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2)
+							padding: 5px 20px
+							margin-top: 12px
+							margin-left: 10px
+							line-height: 25px
+							letter-spacing: -1px
+						a:hover
+							text-decoration: none
+							position: relative
+							top: 2px
+							left: 2px
+			.order-now
+				padding-top: 15px
+				padding-bottom: 25px
+				text-align: center
+				h2
+					color: #ff6110
+					font-size: 41px
+					font-weight: bold
+					line-height: 40px
+					margin-bottom: 8px
+				p
+					margin: 0
+					font-size: 15px
+					line-height: 17px
+					padding: 0 35px
+					margin-bottom: 8px
+					font-family: "PTSansRegular"
+				a
+					display: inline-block
+					background: url("../img/order-btn.png") no-repeat
+					background-size: 100%
+					color: #fff
+					text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2)
+					font-size: 32px
+					line-height: 31px
+					font-weight: 700
+					text-transform: uppercase
+					text-decoration: none
+					padding: 16px 40px
+					margin-top: 10px
+.footer
+	background: #f1f5e4
+	ul
+		list-style: none
+		margin: 0
+		padding: 0
+		font-size: 13px
+		line-height: 17px
+		text-align: center
+		padding-top: 15px
+		font-family: "PTSansRegular"
+		li
+			display: inline-block
+			padding: 0 5px
+			position: relative
+			a
+				color: #9a9a9a
+		li:after
+			content: ''
+			position: absolute
+			background: #9a9a9a
+			width: 1px
+			height: 13px
+			top: 2px
+			right: -2px
+		li:last-child:after
+			content: ''
+			position: absolute
+			background: #fff
+			width: 0px
+			height: 0px
+			top: 2px
+			right: -2px
+	p
+		font-size: 13px
+		color: #9a9a9a
+		line-height: 17px
+		text-align: center
+		padding-bottom: 50px
+		margin: 0
+		font-family: "PTSansRegular"
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+
+@import "media"
