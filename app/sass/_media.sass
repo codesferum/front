@@ -1,0 +1,510 @@
+@import "vars"
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px)
+	/**/
+	body
+		font-size: 16px
+		min-width: 320px
+		position: relative
+		line-height: 1.75
+		font-family: $default-font
+		overflow-x: hidden
+		opacity: 1
+	.main
+		background: #f1f5e4
+		border-top: 2px solid #ef571c
+		.main__wrapper
+			background: url("../img/main-bg.jpg") no-repeat
+			background-size: 100%
+			.main__form-box
+				position: relative
+				.form-order
+					padding: 0
+					margin-top: 20px
+					.form-order__block
+						background: rgba(255,255,255,0.95)
+						border-radius: 8px
+						max-width: 320px
+						margin-bottom: 10px
+						padding: 20px 0 20px 35px
+					ul
+						list-style: none
+						margin: 0
+						padding-left: 35px
+						font-size: 16px
+						text-transform: uppercase
+						line-height: 14px
+						color: #fff
+						font-weight: bold
+			.main__form-box:before
+				content: ''
+				position: absolute
+				background: url("../img/woman-line-1200.png") no-repeat
+				width: 100%
+				height: 424px
+				top: 15px
+				left: 0px
+			.main__info
+				.row
+					margin-right: 0
+					margin-left: 0
+					.calories:after
+						content: ''
+						position: absolute
+						background: url("../img/triangle-icon1.png") no-repeat
+						width: 41px
+						height: 119px
+						top: 0px
+						right: -40px
+						z-index: 1
+					.appetite:after
+						content: ''
+						position: absolute
+						background: url("../img/triangle-icon2.png") no-repeat
+						width: 41px
+						height: 119px
+						top: 0px
+						right: -40px
+						z-index: 1
+					.energy:after
+						content: ''
+						position: absolute
+						background: url("../img/triangle-icon3.png") no-repeat
+						width: 41px
+						height: 119px
+						top: 0px
+						right: -40px
+						z-index: 1
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px)
+	/**/
+	body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+	.main
+		background: #f1f5e4
+		border-top: 2px solid #ef571c
+		.main__wrapper
+			background: url("../img/main-bg.jpg") no-repeat
+			background-size: 100%
+			.main__form-box
+				position: relative
+				.price-product
+					text-align: left
+					padding-top: 40px
+					padding-right: 0px
+					p
+						margin: 0
+						text-transform: uppercase
+						text-align: center
+						color: #fff
+						font-size: 27px
+						font-weight: bold
+						letter-spacing: -1px
+						line-height: 30px
+						span
+							font-size: 80px
+							text-transform: none
+							letter-spacing: -5px
+							padding-right: 5px
+							line-height: 65px
+				.form-order
+					padding: 0
+					margin-top: 20px
+					.form-order__block
+						background: rgba(255,255,255,0.95)
+						border-radius: 8px
+						max-width: 335px
+						margin-bottom: 10px
+						padding: 20px 0 20px 40px
+					ul
+						list-style: none
+						margin: 0
+						padding-left: 55px
+						font-size: 16px
+						text-transform: uppercase
+						line-height: 14px
+						color: #ff6110
+						font-weight: bold
+						display: none
+			.main__form-box:before
+				content: none
+			.main__form-box:after
+				content: ''
+				position: absolute
+				background: url("../img/bottle.png") no-repeat
+				width: 365px
+				height: 448px
+				top: -25px
+				right: 230px
+			.main__guarantee
+				background: rgba(255, 255, 255, 0.84)
+				padding-top: 17px
+				padding-left: 20px
+				padding-bottom: 20px
+				.main__guarantee__img__text
+					padding-left: 50px
+					padding-top: 20px
+					padding-right: 60px
+			.main__info
+				.row
+					margin-right: 0
+					margin-left: 0
+					.main__info__box
+						color: #fff
+						padding-top: 18px
+						padding-left: 42px
+						height: 120px
+					.calories
+						background: #1660c3
+						position: relative
+					.appetite
+						background: #256dce
+						position: relative
+					.energy
+						background: #357fe4
+						position: relative
+					.fatique
+						background: #4891f4
+						position: relative
+					.calories:after
+						content: ''
+						position: absolute
+						background: url("../img/triangle-icon1.png") no-repeat
+						width: 41px
+						height: 119px
+						top: 0px
+						right: -40px
+						z-index: 1
+					.appetite:after
+						content: none
+					.energy:after
+						content: ''
+						position: absolute
+						background: url("../img/triangle-icon3.png") no-repeat
+						width: 41px
+						height: 119px
+						top: 0px
+						right: -40px
+						z-index: 1
+			.main__about-effect
+				background: rgba(255, 255, 255, 0.84)
+				padding: 0 10px
+				.row
+					margin-left: 0
+					margin-right: 0
+					.list-block
+						padding-top: 15px
+						border-bottom: 2px dotted #dbdbd9
+						padding-bottom: 15px
+						.list-block__img
+							padding: 0
+							img 
+								width: 104px
+								height: 104px
+								border-radius: 50%
+						.list-block__text
+							padding: 0px 10px
+							padding-top: 8px
+							h3
+								font-size: 26px
+								color: #1861c3
+								font-weight: 700
+								line-height: 32px
+								margin-bottom: 8px
+							p
+								margin: 0
+								font-size: 15px
+								line-height: 17px
+								color: #3e3e3e
+								font-family: "PTSansRegular"
+					.list-block:nth-child(2)
+						text-align: right
+					.sidebox
+						padding-left: 50px
+						padding-top: 20px
+						.fruits-block
+							background: url("../img/fruit-img.jpg") no-repeat
+							width: 251px
+							height: 399px
+							p
+								margin: 0
+								color: #fff
+								text-transform: uppercase
+								text-align: center
+								font-weight: bold
+								line-height: 47px
+							.lose
+								font-size: 28px
+							.percent
+								font-size: 70px
+							.naturally
+								font-size: 36px
+							a
+								display: inline-block
+								background: #ff6110
+								border: 1px solid #f65d0e
+								box-shadow: 1px 1.7px 5px rgba(0, 0, 0, 0.19)
+								border-radius: 6px
+								color: #fff
+								font-size: 26px
+								text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2)
+								padding: 5px 20px
+								margin-top: 12px
+								margin-left: 10px
+								line-height: 25px
+								letter-spacing: -1px
+							a:hover
+								text-decoration: none
+								position: relative
+								top: 2px
+								left: 2px
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px)
+	/**/
+	body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.75
+	font-family: $default-font
+	overflow-x: hidden
+	opacity: 1
+	.header
+		background: #fff
+		padding-top: 12px
+		padding-bottom: 25px
+		.header__logo 
+			margin-left: 30px
+	.main
+		background: #f1f5e4
+		border-top: 2px solid #ef571c
+		.main__wrapper
+			background: url("../img/main-bg.jpg") no-repeat
+			background-size: 100%
+			.main__form-box
+				position: relative
+				.form-order
+					padding: 0
+					margin-top: 20px
+					.form-order__block
+						background: rgba(255,255,255,0.95)
+						border-radius: 8px
+						max-width: 320px
+						margin-bottom: 10px
+						position: relative
+						top: 0px 
+						left: 50%
+						margin-left: -160px
+						padding: 20px 0 20px 30px
+			.main__form-box:before
+				content: none
+			.main__form-box:after
+				content: none
+			.main__guarantee
+				background: rgba(255, 255, 255, 0.84)
+				padding-top: 17px
+				padding-left: 20px
+				padding-bottom: 20px
+				.main__guarantee__img__text
+					padding-left: 50px
+					padding-top: 20px
+					padding-right: 60px
+					h2
+						font-size: 32px
+						font-weight: bold
+						line-height: 32px
+						color: #ff6110
+						margin-bottom: 10px
+			.main__info
+				.row
+					margin-right: 0
+					margin-left: 0
+					.main__info__box
+						color: #fff
+						padding-top: 18px
+						padding-left: 42px
+						height: 120px
+					.calories:after
+						content: none
+					.appetite:after
+						content: none
+					.energy:after
+						content: none
+			.main__about-effect
+				background: rgba(255, 255, 255, 0.84)
+				padding: 0 10px
+				.row
+					margin-left: 0
+					margin-right: 0
+					.list-block
+						padding-top: 15px
+						border-bottom: 2px dotted #dbdbd9
+						padding-bottom: 15px
+						.list-block__text
+							padding: 0px 20px
+							padding-top: 8px
+				.order-now
+					padding-top: 15px
+					padding-bottom: 25px
+					text-align: center
+					h2
+						color: #ff6110
+						font-size: 32px
+						font-weight: bold
+						line-height: 32px
+						margin-bottom: 8px
+					a
+						display: inline-block
+						background: url("../img/order-btn.png") no-repeat
+						background-size: 100%
+						color: #fff
+						text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2)
+						font-size: 27px
+						line-height: 31px
+						font-weight: 700
+						text-transform: uppercase
+						text-decoration: none
+						padding: 9px 40px
+						margin-top: 10px
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px)
+	/**/
+	body
+		font-size: 16px
+		min-width: 320px
+		position: relative
+		line-height: 1.75
+		font-family: $default-font
+		overflow-x: hidden
+		opacity: 1
+		.header
+			background: #fff
+			padding-top: 12px
+			padding-bottom: 25px
+			.header__logo 
+				margin-left: 30px
+		.main
+			background: #f1f5e4
+			border-top: 2px solid #ef571c
+			.main__wrapper
+				background: #f1f5e4
+				.main__form-box
+					position: relative
+					.form-order
+						padding: 0
+						margin-top: 20px
+						.form-order__block
+							background: rgba(255,255,255,0.95)
+							border-radius: 8px
+							max-width: 320px
+							margin-bottom: 10px
+							position: relative
+							top: 0px 
+							left: 50%
+							margin-left: -160px
+							padding: 20px 0 20px 30px
+				.main__form-box:before
+					content: none
+				.main__form-box:after
+					content: none
+				.main__guarantee
+					background: rgba(255, 255, 255, 0.84)
+					padding-top: 17px
+					padding-left: 20px
+					padding-bottom: 20px
+					.main__guarantee__img__text
+						padding-left: 20px
+						padding-top: 20px
+						padding-right: 20px
+						margin-bottom: 10px
+				.main__about-effect
+					background: rgba(255, 255, 255, 0.84)
+					padding: 0 10px
+					.row
+						margin-left: 0
+						margin-right: 0
+						.list-block
+							padding-top: 15px
+							border-bottom: 2px dotted #dbdbd9
+							padding-bottom: 15px
+							.list-block__text
+								padding-left: 30px
+								padding-right: 0px
+								padding-top: 8px
+								h3
+									font-size: 22px
+									color: #1861c3
+									font-weight: 700
+									line-height: 22px
+									margin-bottom: 8px
+								p
+									margin: 0
+									font-size: 14px
+									line-height: 15px
+									color: #3e3e3e
+									font-family: "PTSansRegular"
+						.list-block:nth-child(2)
+							text-align: right
+							padding-left: 0px
+							padding-right: 30px
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px)
+	/**/
+	body
+		font-size: 16px
+		min-width: 320px
+		position: relative
+		line-height: 1.75
+		font-family: $default-font
+		overflow-x: hidden
+		opacity: 1
+		.header
+			background: #fff
+			padding-top: 12px
+			padding-bottom: 25px
+			.header__logo 
+				margin-left: 10px
+		.main
+			background: #f1f5e4
+			border-top: 2px solid #ef571c
+			.main__wrapper
+				background: #f1f5e4
+				.main__about-effect
+					background: rgba(255, 255, 255, 0.84)
+					padding: 0 10px
+					.row
+						margin-left: 0
+						margin-right: 0
+						.col-xs-12
+							padding-left: 0
+							padding-right: 0
+					.order-now
+						padding-top: 15px
+						padding-bottom: 25px
+						text-align: center
+						a
+							display: inline-block
+							background: url("../img/order-btn.png") no-repeat
+							background-size: 100%
+							color: #fff
+							text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.2)
+							font-size: 17px
+							line-height: 31px
+							font-weight: 700
+							text-transform: uppercase
+							text-decoration: none
+							padding: 0px 25px
+							margin-top: 10px
+
+
